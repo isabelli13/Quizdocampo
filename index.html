@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroQuiz - Descubra Seu Perfil Tecnológico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div id="start-screen" class="screen active">
+            <img src="https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=400&q=80" alt="Trator no campo" class="hero-image">
+            <h1>AgroQuiz</h1>
+            <p>Descubra qual nível de tecnologia e inovação se adapta melhor à sua realidade no campo.</p>
+            <button id="start-btn" class="btn">Iniciar Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="screen">
+            <div class="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            <h2 id="question-text">Pergunta aqui</h2>
+            <div id="options-container" class="options-grid">
+                </div>
+        </div>
+
+        <div id="result-screen" class="screen">
+            <h2>Seu Resultado!</h2>
+            <div id="result-box">
+                <p id="result-text">Carregando perfil...</p>
+            </div>
+            <button id="restart-btn" class="btn">Refazer Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
